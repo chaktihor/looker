@@ -17,3 +17,10 @@ view: vrfy_view_3b93e6f39d979ffffb9d4f191a43be99 {
 
 view: hello_world {
   }
+
+
+view: DC_CALENDAR_DATE {
+  dimension:  {   type: string }
+  
+  
+  }
