@@ -4,32 +4,32 @@
 view: DC_STORE {
   dimension: CITY { 
     label: "CITY"
-    sql: ${TABLE}.CITY; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.CITY ;; }
   dimension: FLOOR_PLAN_TYPE { 
     label: "FLOOR_PLAN_TYPE"
-    sql: ${TABLE}.FLOOR_PLAN_TYPE; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.FLOOR_PLAN_TYPE ;; }
   dimension: REGION { 
     label: "REGION"
-    sql: ${TABLE}.REGION; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.REGION ;; }
   dimension: REPORTS { 
     label: "REPORTS"
-    sql: ${TABLE}.REPORTS; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.REPORTS ;; }
   dimension: STORE_KEY { 
     label: "STORE_KEY"
-    sql: ${TABLE}.STORE_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.STORE_KEY ;; }
   dimension: STORE_NAME { 
     label: "STORE_NAME"
-    sql: ${TABLE}.STORE_NAME; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.STORE_NAME ;; }
   dimension: STORE_SIZE { 
     label: "STORE_SIZE"
-    sql: ${TABLE}.STORE_SIZE; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.STORE_SIZE ;; }
   
   
   }
