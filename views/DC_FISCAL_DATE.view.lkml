@@ -4,20 +4,20 @@
 view: DC_FISCAL_DATE {
   dimension: DAY_OF_WEEK { 
     label: "DAY_OF_WEEK"
-    sql: ${TABLE}.DAY_OF_WEEK; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.DAY_OF_WEEK ;; }
   dimension: HOLIDAY_FLAG { 
     label: "HOLIDAY_FLAG"
-    sql: ${TABLE}.HOLIDAY_FLAG; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.HOLIDAY_FLAG ;; }
   dimension: TIME_KEY { 
     label: "TIME_KEY"
-    sql: ${TABLE}.TIME_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.TIME_KEY ;; }
   dimension: TRANSACTION_DATE { 
     label: "TRANSACTION_DATE"
-    sql: ${TABLE}.TRANSACTION_DATE; ;;
-    type: date }
+    type: date
+    sql: ${TABLE}.TRANSACTION_DATE ;; }
   
   
   }
