@@ -4,36 +4,36 @@
 view: DC_SALES_FACT {
   dimension: COST { 
     label: "COST"
-    sql: ${TABLE}.COST; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.COST ;; }
   dimension: CUSTOMER_COUNT { 
     label: "CUSTOMER_COUNT"
-    sql: ${TABLE}.CUSTOMER_COUNT; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.CUSTOMER_COUNT ;; }
   dimension: PRODUCT_KEY { 
     label: "PRODUCT_KEY"
-    sql: ${TABLE}.PRODUCT_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.PRODUCT_KEY ;; }
   dimension: PROFIT { 
     label: "PROFIT"
-    sql: ${TABLE}.PROFIT; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.PROFIT ;; }
   dimension: SALES { 
     label: "SALES"
-    sql: ${TABLE}.SALES; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.SALES ;; }
   dimension: STORE_KEY { 
     label: "STORE_KEY"
-    sql: ${TABLE}.STORE_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.STORE_KEY ;; }
   dimension: TIME_KEY { 
     label: "TIME_KEY"
-    sql: ${TABLE}.TIME_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.TIME_KEY ;; }
   dimension: UNIT_SALES { 
     label: "UNIT_SALES"
-    sql: ${TABLE}.UNIT_SALES; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.UNIT_SALES ;; }
   
   
   }
