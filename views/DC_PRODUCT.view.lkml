@@ -4,36 +4,36 @@
 view: DC_PRODUCT {
   dimension: AGE_CATEGORY { 
     label: "AGE_CATEGORY"
-    sql: ${TABLE}.AGE_CATEGORY; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.AGE_CATEGORY ;; }
   dimension: BRAND { 
     label: "BRAND"
-    sql: ${TABLE}.BRAND; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.BRAND ;; }
   dimension: DEPARTMENT { 
     label: "DEPARTMENT"
-    sql: ${TABLE}.DEPARTMENT; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.DEPARTMENT ;; }
   dimension: DESCRIPTION { 
     label: "DESCRIPTION"
-    sql: ${TABLE}.DESCRIPTION; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.DESCRIPTION ;; }
   dimension: FULL_DESCRIPTION { 
     label: "FULL_DESCRIPTION"
-    sql: ${TABLE}.FULL_DESCRIPTION; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.FULL_DESCRIPTION ;; }
   dimension: PRODUCT_CATEGORY { 
     label: "PRODUCT_CATEGORY"
-    sql: ${TABLE}.PRODUCT_CATEGORY; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.PRODUCT_CATEGORY ;; }
   dimension: PRODUCT_KEY { 
     label: "PRODUCT_KEY"
-    sql: ${TABLE}.PRODUCT_KEY; ;;
-    type: number }
+    type: number
+    sql: ${TABLE}.PRODUCT_KEY ;; }
   dimension: PRODUCT_TYPE { 
     label: "PRODUCT_TYPE"
-    sql: ${TABLE}.PRODUCT_TYPE; ;;
-    type: string }
+    type: string
+    sql: ${TABLE}.PRODUCT_TYPE ;; }
   
   
   }
