@@ -13,6 +13,7 @@ view: TARGET_SALES {
     label: "TIME_KEY"
     type: number
     sql: ${TABLE}.TIME_KEY ;; }
-  
+  dimension_group: times {   timeframes: day,month,year
+    type: time }
   
   }
