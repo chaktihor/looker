@@ -37,6 +37,7 @@ view: SALES_FACT {
     label: "UNIT_SALES"
     type: number
     sql: ${TABLE}.UNIT_SALES ;; }
-  
+  dimension_group: times {   timeframes: day,month,year
+    type: time }
   
   }
