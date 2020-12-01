@@ -21,6 +21,7 @@ view: CALENDAR_DATE {
     label: "TRANSACTION_DATE"
     type: date
     sql: ${TABLE}.TRANSACTION_DATE ;; }
-  
+  dimension_group: times {   timeframes: day,month,year
+    type: time }
   
   }
