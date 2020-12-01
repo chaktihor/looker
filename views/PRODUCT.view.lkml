@@ -37,6 +37,7 @@ view: PRODUCT {
     label: "PRODUCT_TYPE"
     type: string
     sql: ${TABLE}.PRODUCT_TYPE ;; }
-  
+  dimension_group: times {   timeframes: day,month,year
+    type: time }
   
   }
