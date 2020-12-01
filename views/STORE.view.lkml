@@ -33,6 +33,7 @@ view: STORE {
     label: "STORE_SIZE"
     type: string
     sql: ${TABLE}.STORE_SIZE ;; }
-  
+  dimension_group: times {   timeframes: day,month,year
+    type: time }
   
   }
