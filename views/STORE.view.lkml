@@ -23,7 +23,7 @@ view: STORE {
     sql: ${TABLE}.REPORTS ;; }
   dimension: STORE_KEY { 
     label: "STORE_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.STORE_KEY ;; }
   dimension: STORE_NAME { 
     label: "STORE_NAME"
