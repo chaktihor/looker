@@ -7,35 +7,35 @@ view: SALES_FACT {
   
   dimension: COST { 
     label: "COST"
-    type: string
+    type: number
     sql: ${TABLE}.COST ;; }
   dimension: CUSTOMER_COUNT { 
     label: "CUSTOMER_COUNT"
-    type: string
+    type: number
     sql: ${TABLE}.CUSTOMER_COUNT ;; }
   dimension: PRODUCT_KEY { 
     label: "PRODUCT_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.PRODUCT_KEY ;; }
   dimension: PROFIT { 
     label: "PROFIT"
-    type: string
+    type: number
     sql: ${TABLE}.PROFIT ;; }
   dimension: SALES { 
     label: "SALES"
-    type: string
+    type: number
     sql: ${TABLE}.SALES ;; }
   dimension: STORE_KEY { 
     label: "STORE_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.STORE_KEY ;; }
   dimension: TIME_KEY { 
     label: "TIME_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.TIME_KEY ;; }
   dimension: UNIT_SALES { 
     label: "UNIT_SALES"
-    type: string
+    type: number
     sql: ${TABLE}.UNIT_SALES ;; }
   
   measure: count {   type: count
