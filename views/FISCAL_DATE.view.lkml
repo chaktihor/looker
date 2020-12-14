@@ -15,13 +15,18 @@ view: FISCAL_DATE {
     sql: ${TABLE}.HOLIDAY_FLAG ;; }
   dimension: TIME_KEY { 
     label: "TIME_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.TIME_KEY ;; }
   dimension: TRANSACTION_DATE { 
     label: "TRANSACTION_DATE"
-    type: string
+    type: date
     sql: ${TABLE}.TRANSACTION_DATE ;; }
-  
+  dimension_group: timesTRANSACTION_DATE { 
+    timeframes: [date,month,year]
+    type: time
+    convert_tz: no
+    datatype: date
+    sql: ${TABLE}.TRANSACTION_DATE ;; }
   measure: count {   type: count
     drill_fields: [ ]  }
   }
