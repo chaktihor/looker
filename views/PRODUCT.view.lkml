@@ -31,7 +31,7 @@ view: PRODUCT {
     sql: ${TABLE}.PRODUCT_CATEGORY ;; }
   dimension: PRODUCT_KEY { 
     label: "PRODUCT_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.PRODUCT_KEY ;; }
   dimension: PRODUCT_TYPE { 
     label: "PRODUCT_TYPE"
