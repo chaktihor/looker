@@ -7,11 +7,11 @@ view: TARGET_SALES {
   
   dimension: TARGET_SALES { 
     label: "TARGET_SALES"
-    type: string
+    type: number
     sql: ${TABLE}.TARGET_SALES ;; }
   dimension: TIME_KEY { 
     label: "TIME_KEY"
-    type: string
+    type: number
     sql: ${TABLE}.TIME_KEY ;; }
   
   measure: count {   type: count
