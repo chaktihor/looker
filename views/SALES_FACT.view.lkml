@@ -5,39 +5,39 @@ view: SALES_FACT {
   sql_table_name: DC_SALES_FACT ;;
   
   
-  dimension: COST { 
-    label: "COST"
-    type: sum
-    sql: ${TABLE}.COST ;; }
   dimension: CUSTOMER_COUNT { 
-    label: "CUSTOMER_COUNT"
     type: number
+    label: "CUSTOMER_COUNT"
     sql: ${TABLE}.CUSTOMER_COUNT ;; }
   dimension: PRODUCT_KEY { 
+    type: number
     label: "PRODUCT_KEY"
-    type: number
     sql: ${TABLE}.PRODUCT_KEY ;; }
-  dimension: PROFIT { 
-    label: "PROFIT"
-    type: sum
-    sql: ${TABLE}.PROFIT ;; }
-  dimension: SALES { 
-    label: "SALES"
-    type: sum
-    sql: ${TABLE}.SALES ;; }
   dimension: STORE_KEY { 
-    label: "STORE_KEY"
     type: number
+    label: "STORE_KEY"
     sql: ${TABLE}.STORE_KEY ;; }
   dimension: TIME_KEY { 
-    label: "TIME_KEY"
     type: number
+    label: "TIME_KEY"
     sql: ${TABLE}.TIME_KEY ;; }
   dimension: UNIT_SALES { 
-    label: "UNIT_SALES"
     type: number
+    label: "UNIT_SALES"
     sql: ${TABLE}.UNIT_SALES ;; }
   
+  measure: COST { 
+    type: sum
+    label: "COST"
+    sql: ${TABLE}.COST ;; }
+  measure: PROFIT { 
+    type: sum
+    label: "PROFIT"
+    sql: ${TABLE}.PROFIT ;; }
+  measure: SALES { 
+    type: sum
+    label: "SALES"
+    sql: ${TABLE}.SALES ;; }
   measure: count {   type: count
     drill_fields: [ ]  }
   }
